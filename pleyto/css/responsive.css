@@ -1,0 +1,114 @@
+@media (max-width: 1440px) {
+    #about-img {
+        margin-top: -2%;
+    }
+}
+
+@media (max-width: 1200px) {
+    #about-img {
+        height: 700px;
+    }
+}
+
+@media (max-width: 991px) {
+    #about-img {
+        height: 600px;
+    }
+    
+    #instruction .item div span {
+        margin-top: 0;
+        float: none;
+    }
+    
+    #instruction .item div span:before {
+        content: none;
+    }
+    
+    #instruction .item div span:after {
+        content: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .content {
+        padding: 10% 0 0;
+    }
+    #about-img {
+        display: none;
+    }
+    #about-img-h {
+        display: block;
+        height: 1280px
+    }
+    #social {
+        height: 50px;
+    }
+}
+
+@media (max-width: 603px) {
+    #tf-menu.navbar-default {
+        background-color: rgba(0, 0, 0, 0.79);
+    }
+    #tf-menu.navbar-default .navbar-nav > li > a {
+        color: white !important;
+    }
+    
+    .navbar-logo {
+        content: url('../img/pleytowhite.png');
+    }
+    
+    label {
+        float: none !important
+    }
+    .pull-left.fnav,
+    .pull-right.fnav {
+        float: none !important;
+        text-align: center;
+    }
+    .hover-bg .hover-text {
+        padding: 12% 10%;
+    }
+    .navbar-logo {
+        width: 143px;
+        margin-top: -20px;
+    }
+    .content {
+        padding: 22% 0 0;
+    }
+    #about-img-h {
+        height: 1000px;
+    }
+    
+    #social {
+        height: 45px;
+    }
+}
+
+@media (max-width: 490px) {
+    #social {
+        height: 33px;
+    }
+    
+    .navbar-logo {
+        width: 120px;
+        margin-top: -18px;
+    }
+}
+
+@media (max-width: 360px) {
+    .hover-bg .hover-text {
+        padding: 22% 10%;
+    }
+    .content {
+        padding: 30% 0 0;
+    }
+    
+    
+    #about-img-h {
+        height: 768px;
+    }
+    
+    #social {
+        height: 25px;
+    }
+}
