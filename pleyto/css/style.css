@@ -30,6 +30,16 @@
     /* Legacy iOS */
 }
 
+@font-face {
+    font-family: 'Gotham-Ultra';
+    src: url('../fonts/fonts/gotham/Gotham-Ultra.eot');
+    src: url('../fonts/fonts/gotham/Gotham-Ultra.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/fonts/gotham/Gotham-Ultra.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/fonts/gotham/Gotham-Ultra.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/fonts/gotham/Gotham-Ultra.svg#svgFontName') format('svg');
+    /* Legacy iOS */
+}
+
 body,
 html {
     font-family: 'Gotham';
@@ -568,4 +578,9 @@ nav#footer p {
 .social-elements {
     height: 100%;
     padding-right: 36px;
+}
+
+.resto-img {
+    max-width: 320px;
+    margin: 10px;
 }
