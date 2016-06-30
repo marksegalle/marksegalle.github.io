@@ -161,44 +161,46 @@
 
             </div>
 
-            <div class="row">
-                <form class="form-horizontal">
-                    <fieldset>
-                        <!-- Text input-->
-                        <div class="form-group">
-                            <label class="col-md-4 control-label" for="textinput"></label>
-                            <div class="col-md-4">
-                                <input id="textinput" name="name" type="text" placeholder="NAME" class="form-control input-md">
-                            </div>
-                        </div>
+            
 
-                        <!-- Text input-->
-                        <div class="form-group">
-                            <label class="col-md-4 control-label" for="textinput"></label>
-                            <div class="col-md-4">
-                                <input id="textinput" name="email" type="text" placeholder="EMAIL" class="form-control input-md">
+                <div class="row">
+                    <form class="form-horizontal" action="contact.php" method="post">
+                        <fieldset>
+                            <!-- Text input-->
+                            <div class="form-group">
+                                <label class="col-md-4 control-label" for="textinput"></label>
+                                <div class="col-md-4">
+                                    <input id="textinput" name="name" type="text" placeholder="NAME" class="form-control input-md" required>
+                                </div>
                             </div>
-                        </div>
 
-                        <!-- Textarea -->
-                        <div class="form-group">
-                            <label class="col-md-4 control-label" for="textarea"></label>
-                            <div class="col-md-4">
-                                <textarea class="form-control" id="textarea" name="message" placeholder="MESSAGE" rows="15"></textarea>
+                            <!-- Text input-->
+                            <div class="form-group">
+                                <label class="col-md-4 control-label" for="textinput"></label>
+                                <div class="col-md-4">
+                                    <input id="textinput" name="email" type="text" placeholder="EMAIL" class="form-control input-md" required>
+                                </div>
                             </div>
-                        </div>
 
-                        <!-- Button -->
-                        <div class="form-group">
-                            <label class="col-md-4 control-label" for="singlebutton"></label>
-                            <div class="col-md-4">
-                                <button id="singlebutton" name="singlebutton" class="btn btn-primary">SEND</button>
+                            <!-- Textarea -->
+                            <div class="form-group">
+                                <label class="col-md-4 control-label" for="textarea"></label>
+                                <div class="col-md-4">
+                                    <textarea class="form-control" id="textarea" name="message" placeholder="MESSAGE" rows="15" required></textarea>
+                                </div>
                             </div>
-                        </div>
 
-                    </fieldset>
-                </form>
-            </div>
+                            <!-- Button -->
+                            <div class="form-group">
+                                <label class="col-md-4 control-label" for="singlebutton"></label>
+                                <div class="col-md-4">
+                                    <button id="singlebutton" name="singlebutton" class="btn btn-primary">SEND</button>
+                                </div>
+                            </div>
+
+                        </fieldset>
+                    </form>
+                </div>
         </div>
     </div>
 
