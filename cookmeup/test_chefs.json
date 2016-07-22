@@ -1,0 +1,25 @@
+{
+    "json": [
+            {
+                "Id": 101,
+                "CoverImage": "http://dummyimage.com/600x400/000/fff&text=Chef+Number+1",
+                "ChefImage": "https://muskyaddicts.com/src/images/profile_pic.png",
+                "Distance": "2km away",
+                "Price": "420"
+            },
+            {
+                "Id": 102,
+                "CoverImage": "http://dummyimage.com/600x400/000/fff&text=Chef+Number+2",
+                "ChefImage": "https://muskyaddicts.com/src/images/profile_pic.png",
+                "Distance": "1km away",
+                "Price": "240"
+            },
+            {
+                "Id": 103,
+                "CoverImage": "http://dummyimage.com/600x400/000/fff&text=Chef+Number+3",
+                "ChefImage": "https://muskyaddicts.com/src/images/profile_pic.png",
+                "Distance": "4km away",
+                "Price": "360"
+            }
+          ]
+}
