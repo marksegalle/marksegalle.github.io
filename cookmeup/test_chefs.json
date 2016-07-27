@@ -9,14 +9,14 @@
             },
             {
                 "Id": 102,
-                "CoverImage": "http://dummyimage.com/600x400/fff/fff&text=Chef+Number+2",
+                "CoverImage": "http://dummyimage.com/600x400/EDF2F4/fff&text=Chef+Number+2",
                 "ChefImage": "https://muskyaddicts.com/src/images/profile_pic.png",
                 "Distance": "1km away",
                 "Price": "240"
             },
             {
                 "Id": 103,
-                "CoverImage": "http://dummyimage.com/600x400/fff/fff&text=Chef+Number+3",
+                "CoverImage": "http://dummyimage.com/600x400/596869/fff&text=Chef+Number+3",
                 "ChefImage": "https://muskyaddicts.com/src/images/profile_pic.png",
                 "Distance": "4km away",
                 "Price": "360"
