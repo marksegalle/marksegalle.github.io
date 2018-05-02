@@ -3539,7 +3539,7 @@ blockquote.team-quote p {
 	width: calc(100% - 0px);
 	height: 70px;
 	border-radius: 35px;
-	background-color: rgba(244,244,244,.98);
+	/* background-color: rgba(244,244,244,.98); */
 	border: solid 1px #c1c1c1;
 	padding: 0 30px;
 	color: #000;
@@ -4106,7 +4106,7 @@ label.apps-craft-subscribed-label{
 	position: static;
 }
 .apps-craft-subscribe-form {
-	background-color: #fff;
+	/* background-color: #fff; */
 	border-top-right-radius: 35px;
 	border-top-left-radius: 35px;
 	border-bottom-left-radius: 35px;
